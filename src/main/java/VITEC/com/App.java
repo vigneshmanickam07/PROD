@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello maven webhook World!" );
+        System.out.println( "Hello maven webhook jenkins World!" );
     }
 }
