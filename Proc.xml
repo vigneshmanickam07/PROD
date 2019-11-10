@@ -1,0 +1,5 @@
+<xml>
+	<not>
+		Pages: $1:index
+	</not>
+</xml>
