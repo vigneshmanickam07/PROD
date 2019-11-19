@@ -18,4 +18,4 @@
 
 
 Execute cmd
-packer build -var "aws_access_key=AKIAJMVKESQHWZAHWZJQ" -var "aws_secret_key=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" golden_image_ami.json
+packer build -var "aws_access_key=" -var "aws_secret_key=" golden_image_ami.json
