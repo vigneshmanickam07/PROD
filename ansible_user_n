@@ -1,0 +1,15 @@
+---
+- hosts: IMPL
+  become: yes
+  tasks:
+    - name: Add jenkin user
+      action: user name=jenkin password=password
+      become: yes
+    - name: ensure nginx is at the latest version
+      apt: name=nginx state=latest
+      become: yes
+    - name: start nginx
+      service:
+          name: nginx
+          state: started
+
